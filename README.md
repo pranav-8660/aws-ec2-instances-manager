@@ -8,15 +8,15 @@ Instead of cloning the repository, you can refer to the repository and manually 
 
 ### Backend Setup
 1. Create a `backend` directory.
-2. Inside the `backend` directory, create a `main.py` file.
+2. Inside the `backend` directory, create a `main.py` file, copy the contents of main.py from this repo.
 3. Create an `infrastructure` directory inside `backend`.
-4. Add a `main.tf` file inside `backend/infrastructure`.
+4. Add a `main.tf` file inside `backend/infrastructure` and copy the contents of main.tf from this repo.
 
 ### Frontend Setup
 1. Create a `frontend` directory.
 2. Inside `frontend`, create a React app using:
    ```sh
-   npx create-react-app my-app
+   npm create-react-app frontend-app
    ```
 3. Replace the `App.js` file with the one from the repository.
 4. Add a `EC2Manager.jsx` file from the repository.
